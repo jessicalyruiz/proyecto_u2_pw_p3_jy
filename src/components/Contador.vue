@@ -18,7 +18,7 @@ export default {
   //options API
 
   // props:['titulo', 'inicio'],  //forma basica
-  /* props:{  //esta es la forma correcta de declarar 
+  /* props:{  //esta es la forma correcta de declarar  
 titulo: String,
 inicio: Number
  },*/
