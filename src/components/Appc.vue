@@ -1,13 +1,13 @@
 <template>
- <calcu/>
+ <Pregunta/>
 </template>
 
 <script>
-import calcu from './components/calcu.vue'
+import Pregunta from './components/Pregunta.vue'
 export default {
   name: 'App',
   components: {
-    calcu
+      Pregunta
   }
 }
 </script>
