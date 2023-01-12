@@ -1,13 +1,13 @@
 <template>
- <calcu/>
+ <pokemonPage/>
 </template>
 
 <script>
-import calcu from './components/calcu.vue'
+import pokemonPage from './pages/pokemonPage.vue'
 export default {
   name: 'App',
   components: {
-    calcu
+    pokemonPage
   }
 }
 </script>
