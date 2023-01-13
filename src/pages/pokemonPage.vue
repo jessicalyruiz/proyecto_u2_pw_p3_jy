@@ -1,5 +1,5 @@
 <template>
-<PokemonImg/>
+<PokemonImg v-bind:numero="4" :mostrar="true"/>
   <PokemonOpts/>
 </template>
 
