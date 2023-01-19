@@ -46,9 +46,23 @@ export default {
             return vectoridPokemon;
         },
         construirPokemons(){
+          cosnt vectoObjetoPo=[]
             const vector=this.definirPokemons;
+            for(let i=0; i<4; i++){
+              const idPokemon=vector[i]
+              const objp=this.construirOnjetoPokemon(idPokemon);
+              vectoObjetoPo.unshift(objp)
+            }
+            
             const vectoridPokemon=[];
         },
+        construirOnjetoPokemon(id){
+          const objetoPoke={
+            ruta: '',
+            nombre:''
+          }
+          return objetoPoke;
+        }
         definirJuego(){
 
         },
