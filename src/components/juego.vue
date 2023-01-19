@@ -16,7 +16,7 @@
     <p>{{ pokemontext2 }}</p>
     <p>{{ pokemontext3 }}</p>
   </div>
-  <button v-on:click="jugar()"> Jugar</button>
+  <button v-on:click="jugar()"> Jugar </button>
 </template>
 
 <script>
