@@ -26,7 +26,7 @@
     <h1>5 intentos</h1>
     <h2>Intenta nuevamente</h2>
 
-    <button v-on:click="nuevoJuego()">Nuevo Juego</button>
+    <button v-on:click="nuevoJuego()">Nuevo Juego.</button>
 
   </div>
 
