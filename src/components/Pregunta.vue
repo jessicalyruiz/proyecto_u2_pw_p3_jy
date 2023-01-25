@@ -1,7 +1,6 @@
 <template>
     <h1>Pregunta</h1>
-    <img v-if="imagsrc" v-bind:src="imagsrc" alt="no se puede visualizar">
-  <div class="fondo-dark"></div>
+     <div class="fondo-dark"></div>
   <div class="container">
     <input v-model="question" type="text" placeholder="Hazme una pregunta">
     <p>Recuerda terminar con un signo de interrogacion (?)</p>
@@ -10,6 +9,8 @@
         <h1>{{respuesta}}</h1>
     </div>
   </div>
+  <img v-if="imagsrc" v-bind:src="imagsrc" alt="no se puede visualizar">
+
 </template>
 
 <script>

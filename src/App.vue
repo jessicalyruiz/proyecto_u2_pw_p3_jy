@@ -1,13 +1,13 @@
 <template>
- <juego />
+ <buscarPokemon />
 </template>
 
 <script>
-import juego from './components/juego.vue'
+import buscarPokemon from './components/buscarPokemon.vue'
 export default {
   name: 'App',
   components: {
-    juego
+    buscarPokemon
   }
 }
 </script>
