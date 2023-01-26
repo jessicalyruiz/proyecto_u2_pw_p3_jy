@@ -2,7 +2,7 @@
   <h1>Juego</h1>
   <div v-if="mostrarjuego">
   <div id="contenedor-juego" v-if="banderaJuego">
-    <p>Puntaje: {{ puntaje }}</p>
+    <p>Puntaje : {{ puntaje }}</p>
     <p>Intento: {{ intento }}</p>
   </div>
   <div v-if="mostrarinicio">
