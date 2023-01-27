@@ -1,13 +1,13 @@
 <template>
- <buscarPokemon />
+ <pokemonPage />
 </template>
 
 <script>
-import buscarPokemon from './components/buscarPokemon.vue'
+import pokemonPage from './pages/pokemonPage.vue'
 export default {
   name: 'App',
   components: {
-    buscarPokemon
+    pokemonPage
   }
 }
 </script>
