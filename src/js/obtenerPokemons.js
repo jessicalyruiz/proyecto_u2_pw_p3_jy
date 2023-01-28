@@ -4,17 +4,14 @@
   return await obtenerVectorNombres(vec)
 }
 
-/*debo tener un metodo de fachada para exportarlo*/
-const obtenerPokemonsFachada=async ()=>{
-    return await obtenerPokemons()
-}
+
 
 function obtenerAleatorio(min, max){
     return Math.floor(Math.random()*(max-min))+min;
 }
 
 const obtenerVectorNumerico=()=>{
-    const arreglo=[obtenerAleatorio(0,600),obtenerAleatorio(0,600),obtenerAleatorio(0,600),obtenerAleatorio(0,600)]
+    const arreglo=[obtenerAleatorio(1,600),obtenerAleatorio(1,600),obtenerAleatorio(1,600),obtenerAleatorio(1,600)]
     console.log(arreglo)
     return arreglo
 }
@@ -49,7 +46,7 @@ const obtenerVectorNumerico=()=>{
         nombre: nombrep4,
         id: p4
     }]
-
+    return vectPokemons
 }
 
 const obtenerNombreAPI=async(id)=>{
@@ -57,4 +54,9 @@ const obtenerNombreAPI=async(id)=>{
   console.log(data.name)
   return data.name
 }
-export default obtenerPokemonsFachada()
+
+/*debo tener un metodo de fachada para exportarlo*/
+const obtenerPokemonsFachada=async ()=>{
+    return await obtenerPokemons()
+}
+export default obtenerPokemonsFachada
