@@ -51,11 +51,14 @@
       list-style-type: none;
   }
   li{
-      background-color: white;
+      background-color: rgb(255, 205, 205);
       border: 1px solid rgba(0, 0, 0, 0.2);
       width: 250px;
       border-radius: 5px;
       margin-top: 10px;
       cursor: pointer;
   }   
+  li:hover{
+    background-color: rgb(252, 180, 180);
+  }
   </style>

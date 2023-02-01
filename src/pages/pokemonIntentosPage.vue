@@ -76,7 +76,7 @@
           console.log('pokemons mostrados: '+ this.pokemonsMostrados)
           console.log("prueba evento")
           console.log(pokemonSeleccionadoHijo)
-          this.mostrarPokemon=true
+          
           const idSeleccionado=pokemonSeleccionadoHijo.idPoke
           this.intentos=pokemonSeleccionadoHijo.intents
           console.log('intentos')
@@ -85,6 +85,7 @@
             
           if(idSeleccionado==this.pokemonCorrecto.id){
             console.log("correcto")
+            this.mostrarPokemon=true
             this.mensaje="Correcto [+5], pasar al siguiente pokemon"
             this.score+=5
             console.log('score')
@@ -101,6 +102,7 @@
             this.mensaje="MAL, intenta otra vez"
           }
         }else if(this.intentos==2){
+          this.mostrarPokemon=true
           if(idSeleccionado==this.pokemonCorrecto.id){
             console.log("correcto")
             this.mensaje="Correcto [+2], pasar al siguiente pokemon"
@@ -168,5 +170,27 @@
   </script>
   
   <style>
-  
+  h1{
+    font-family: Charlinda ;
+  }
+  @font-face {
+  font-family: 'Charlinda';
+  src: url('D:\Fonts\Script\Brush script\charlinda\charlinda.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+p{
+  background-color: rgb(196, 245, 245);
+}
+button{
+  background-color: rgb(218, 252, 247);
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      width: 250px;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+}
+button:hover{
+  background-color: rgb(189, 250, 241);
+}
   </style>
