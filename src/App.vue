@@ -1,13 +1,13 @@
 <template>
- <pokemonPage />
+ <estudiantes />
 </template>
 
 <script>
-import pokemonPage from './pages/pokemonIntentosPage.vue'
+import estudiantes from './components/estudiantes.vue'
 export default {
   name: 'App',
   components: {
-    pokemonPage
+    estudiantes
   }
 }
 </script>
